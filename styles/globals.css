@@ -13,3 +13,35 @@
     --dark-color-opacity: rgba(0, 0, 0, 0.7);
 
 }
+
+/*  Util */
+
+.section-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+.section-content {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.section-title{
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom: 1.5px solid #ffffff;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+

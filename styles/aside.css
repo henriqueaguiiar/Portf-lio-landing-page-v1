@@ -1,0 +1,37 @@
+.skills-content {
+  margin-top: 108px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.skill-item {
+  background-color: #202020;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 👇 Esta parte corrige o problema dos ícones */
+.skill-item img {
+  width: 50px !important;
+  height: 50px !important;
+  object-fit: contain;
+  display: block;
+}
+
+.skill-item > span {
+  margin-top: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+.skill-item img[src$=".svg"] {
+  width: 50px !important;
+  height: 50px !important;
+}

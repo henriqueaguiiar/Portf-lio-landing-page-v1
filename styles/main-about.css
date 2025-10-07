@@ -1,0 +1,16 @@
+.about-me-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-me-content > a > img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.about-me-content > p {
+  color: var(--content-color);
+  line-height: 2rem;
+}
